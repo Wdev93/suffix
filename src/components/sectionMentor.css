@@ -1,0 +1,72 @@
+.suffix__section-mentor {
+  text-align: center;
+}
+
+.suffix__section-mentor h3 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.8rem;
+  line-height: 178.69%;
+  color: #2c3847;
+}
+
+.suffix__section-mentor p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 178.69%;
+  color: #2c3847;
+  opacity: 0.8;
+}
+
+.suffix__section-mentor__cards-container {
+  display: inline-flex;
+  margin: 6rem 0;
+}
+
+.suffix__section-mentor__cards-container .cards {
+  padding: 3rem 0rem;
+  margin: 2rem 6rem;
+}
+
+.suffix__section-mentor__cards-container .cards__img-bg {
+  background-color: #f9e4c6;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.suffix__section-mentor__cards-container .cards__heading {
+  padding-top: 3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+  color: #151c26;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .suffix__section-mentor__cards-container {
+    margin: 5rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 45%;
+  }
+
+  .suffix__section-mentor__cards-container {
+    margin: 4rem 0;
+  }
+}

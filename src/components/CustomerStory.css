@@ -1,0 +1,111 @@
+.suffix__customer-story {
+  display: flex;
+  padding: 10rem 0;
+}
+
+.suffix__customer-story__col-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+}
+
+.suffix__customer-story__col-left .img_div {
+  width: 30rem;
+  height: 60rem;
+}
+
+.shape {
+  position: absolute;
+  top: 1.3rem;
+  width: 40rem;
+  z-index: -1;
+}
+
+.suffix__customer-story__col-left img {
+  width: 100%;
+}
+
+.suffix__customer-story__col-right {
+  width: 50%;
+  padding: 0 6rem;
+}
+
+.suffix__customer-story__col-right h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: #161c28;
+  background-color: rgb(243, 198, 186);
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.suffix__customer-story__col-right .primary_heading {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 6rem;
+  color: #000000;
+}
+
+.suffix__customer-story__col-right .para_1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  color: #4f6b7d;
+  padding: 1rem 0;
+}
+
+.suffix__customer-story__col-right .customer_name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #000000;
+  padding-top: 2rem;
+}
+
+.suffix__customer-story__col-right .position {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #4f6b7d;
+  padding: 1.6rem 0;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .suffix__customer-story {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 0;
+  }
+
+  .suffix__customer-story__col-left,
+  .suffix__customer-story__col-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .suffix__customer-story__col-left,
+  .suffix__customer-story__col-right {
+    width: 100%;
+    padding: 0;
+  }
+}

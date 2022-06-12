@@ -1,0 +1,101 @@
+.suffix__cta {
+  margin: 5rem 12rem;
+  padding: 5rem 0;
+  background-color: #161c28;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+.suffix__cta__col-left {
+  width: 55%;
+  padding: 0 4rem;
+}
+
+.suffix__cta__col-left h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.suffix__cta__col-left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.suffix__cta__col-right {
+  width: 45%;
+  display: flex;
+  padding: 0 4rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.col-right__btn {
+  position: absolute;
+  left: 18rem;
+  right: 1rem;
+  border: none;
+  padding: 1rem 0;
+  background-color: #f9e4c6;
+  cursor: pointer;
+}
+.suffix__cta__col-right input {
+  border: none;
+  width: 30rem;
+  height: 5rem;
+  padding-left: 1.6rem;
+  border: transparent;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .suffix__cta {
+    margin: 5rem 2rem;
+    padding: 5rem 0;
+    background-color: #161c28;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .suffix__cta__col-left,
+  .suffix__cta__col-right {
+    width: 100%;
+    padding: 0 4rem;
+  }
+  .suffix__cta__col-left p {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 45%;
+  }
+
+  .suffix__cta__col-left p {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+  .suffix__cta__col-left h2 {
+    line-height: 5.5rem;
+  }
+  .suffix__cta__col-right input {
+    width: 26rem;
+  }
+}

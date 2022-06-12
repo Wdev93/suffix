@@ -1,0 +1,118 @@
+.suffix__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  position: sticky;
+  top: 0;
+  padding: 0 10rem;
+}
+
+.suffix__navbar-bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  position: sticky;
+  top: 0;
+  padding: 0 10rem;
+  background: #d0edf5;
+  z-index: 1;
+}
+
+.suffix__navbar nav ul,
+.suffix__navbar-bg nav ul {
+  display: inline-flex;
+  font-size: 1.6rem;
+}
+
+.suffix__navbar nav ul li a,
+.suffix__navbar-bg nav ul li a {
+  padding: 0 1rem;
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+.suffix__navbar nav ul li a:hover,
+.suffix__navbar-bg nav ul li a:hover {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #000000;
+}
+
+.suffix__navbar .btn,
+.suffix__navbar-bg .btn {
+  color: #fff;
+  background-color: #199164;
+  padding: 1.3rem 2rem;
+  font-size: 1.6rem;
+  /* margin: auto; */
+}
+.suffix__navbar .btn:hover,
+.suffix__navbar-bg .btn:hover {
+  color: #199164;
+  background-color: #fff;
+  border: 1px solid #199164;
+  padding: 1.1rem 1.8rem;
+}
+
+.suffix__navbar__mobile-menu {
+  display: none;
+}
+
+.suffix__navbar__mobile-menu__container {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  width: 100%;
+  height: 22rem;
+  /* background-color: #199164; */
+  background: #d0edf5;
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .suffix__navbar,
+  .suffix__navbar-bg {
+    padding: 0 2rem;
+  }
+
+  .suffix__navbar .btn {
+    display: none;
+  }
+  .suffix__navbar__mobile-menu {
+    display: flex;
+  }
+
+  .suffix__navbar__desktop-menu {
+    display: none;
+  }
+
+  .suffix__navbar nav ul,
+  .suffix__navbar-bg nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .suffix__navbar nav ul li {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 45%;
+  }
+  .suffix__navbar,
+  .suffix__navbar-bg {
+    padding: 0 1rem;
+  }
+
+  .suffix__navbar-bg .btn {
+    display: none;
+  }
+}

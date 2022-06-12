@@ -1,0 +1,137 @@
+.suffix__footer {
+  height: 100vh;
+  background-color: #161c28;
+  display: grid;
+  place-items: center;
+}
+.relative {
+  position: relative;
+}
+.suffix__footer h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.2rem;
+  line-height: 7.6rem;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  padding: 6rem 0;
+}
+.suffix__footer .footer_btn {
+  width: 15rem;
+  height: 5rem;
+  margin: 0;
+  border-radius: 0.3rem;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  color: #161c28;
+  text-align: center;
+  padding-top: 1.8rem;
+}
+
+.suffix__footer__outer-grid {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 1fr;
+  padding-top: 12rem;
+}
+
+.suffix__footer__outer-grid .company__brand {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.suffix__footer__outer-grid h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+}
+
+.suffix__footer__inner-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.suffix__footer__inner-grid .company__links h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+  color: #ffffff;
+}
+
+.suffix__footer__inner-grid .company__links,
+ul li,
+a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+.suffix__footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .suffix__footer .footer_btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+  }
+  .suffix__footer__outer-grid {
+    padding-top: 22rem;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 45%;
+  }
+  .suffix__footer h2 {
+    font-size: 4.2rem;
+    line-height: 6.6rem;
+  }
+
+  .suffix__footer .footer_btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+  }
+
+  .suffix__footer__outer-grid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+    padding-top: 12rem;
+  }
+
+  .suffix__footer .footer_btn {
+    width: 18rem;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+  }
+}

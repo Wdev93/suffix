@@ -1,0 +1,67 @@
+.suffix__section-team {
+  text-align: center;
+  margin: 10rem 0;
+  /* border: 1px solid brown; */
+}
+
+.suffix__section-team h3 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 178.69%;
+  color: #2c3847;
+}
+
+.suffix__section-team p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 178.69%;
+  color: #2c3847;
+  opacity: 0.8;
+}
+
+.suffix__section-team__content-container {
+  display: inline-flex;
+  margin: 6rem 0;
+  /* border: 1px solid salmon; */
+}
+
+.suffix__section-team__content-container .img_div {
+  width: 25rem;
+  height: 35rem;
+}
+.suffix__section-team__content-container img {
+  width: 100%;
+}
+
+.suffix__section-team__content-container .name {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2c3847;
+  padding-top: 2rem;
+}
+
+.suffix__section-team__content-container .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 178.69%;
+  color: #2c3847;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .suffix__section-team__content-container {
+    margin: 6rem 2rem;
+  }
+}
